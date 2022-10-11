@@ -51,6 +51,7 @@ class FirstFragment : Fragment() {
                 binding.emailInputField.error = "No email"
                 return@setOnClickListener
             }
+
             if (password.isEmpty()) {
                 binding.passwordInputField.error = "No password"
                 return@setOnClickListener
